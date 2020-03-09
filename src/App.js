@@ -1,16 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-const App=()=> {
+import Header from './Header.js';
+import Technologies from './Technologies.js';
+import Footer from './Footer';
+
+const App = () => {
   return (
-    <div className="App">
-      <ul>
-        <li>i chto   </li>
-        <li>s togo   </li>
-        <li>chto    </li>
-      </ul>
-      
+    <div>
+      <Header />
+      <Technologies />
+      <Footer/>
     </div>
   );
 }
